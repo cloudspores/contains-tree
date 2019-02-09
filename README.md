@@ -52,8 +52,8 @@ m is an upper limit not reached in practice since less than m nodes are looked a
 
 
 ## Build, Deploy Run
-- To build and deploy from ./ContainsTree-Ade-Lucas: mvn clean install
-- Builds and deploys to: ./ContainsTree-Ade-Lucas/deployment
-- cd ./ContainsTree-Ade-Lucas/deployment
+- To build and deploy from root folder: mvn clean install
+- Builds and deploys to: root folder/deployment
+- cd root folder/deployment
 - ./run.sh
 - Runs the program and produces and prints out results to terminal
