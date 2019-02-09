@@ -44,7 +44,7 @@ A rough estimate is O(nm) time, where n is the number of nodes in T1 and T2 resp
 
 In practice, performance is better than this rough estimate because the compareTree() method in TreeUtils.java is not called on every node in T1. 
 
-compareTree() only gets called the number of occurrences of T2's root in T1 making the runtime is closer to an upper limit of O(n + km).
+compareTree() only gets called the number of occurrences of T2's root in T1 making the runtime closer to an upper limit of O(n + km).
 
 Where k is the number of occurrences of T2's root in T1
 
